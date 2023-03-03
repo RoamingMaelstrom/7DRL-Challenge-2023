@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 504 Homing Missile
+  m_EditorClassIdentifier: 
+  itemID: 504
+  itemName: Homing Missile Launcher
+  itemDescription: Launches a missile that locks on to a random enemy
+  itemCost: 1000
+  itemType: 0
+  itemOffset: {x: 0, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 0}
+  weaponType: 3
+  baseMaxCd: 2
+  accuracyCoefficient: 1
+  targetingType: 4
+  damageDealerTypeID: 1004
+  itemPerks: []
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 0
+      magnitude: 33
+      isPercent: 1
+    cost: 750
+  - upgrades:
+    - upgradeType: 4
+      magnitude: -20
+      isPercent: 1
+    cost: 750
+  - upgrades:
+    - upgradeType: 0
+      magnitude: 150
+      isPercent: 0
+    cost: 750
+  - upgrades:
+    - upgradeType: 4
+      magnitude: -0.4
+      isPercent: 0
+    cost: 750
+  - upgrades:
+    - upgradeType: 0
+      magnitude: 100
+      isPercent: 1
+    - upgradeType: 4
+      magnitude: -50
+      isPercent: 1
+    cost: 2250

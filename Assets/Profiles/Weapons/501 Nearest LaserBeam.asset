@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 501 Nearest LaserBeam
+  m_EditorClassIdentifier: 
+  itemID: 501
+  itemName: Laserbeam
+  itemDescription: Fires a laserbeam at the nearest enemy. Deals DOT Damage
+  itemCost: 500
+  itemType: 0
+  itemOffset: {x: -0.25, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 2100000, guid: 6ebc995ed956a1244b38b3726e3d8c14, type: 2}
+  weaponType: 2
+  baseMaxCd: 0
+  accuracyCoefficient: 1
+  targetingType: 0
+  damageDealerTypeID: 1001
+  itemPerks: []
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 1
+      magnitude: 33
+      isPercent: 1
+    cost: 250
+  - upgrades:
+    - upgradeType: 1
+      magnitude: 33
+      isPercent: 1
+    - upgradeType: 2
+      magnitude: -10
+      isPercent: 1
+    cost: 500
+  - upgrades:
+    - upgradeType: 1
+      magnitude: 33
+      isPercent: 1
+    cost: 600
+  - upgrades:
+    - upgradeType: 1
+      magnitude: 33
+      isPercent: 1
+    cost: 1000
+  - upgrades:
+    - upgradeType: 2
+      magnitude: -33
+      isPercent: 1
+    - upgradeType: 7
+      magnitude: 20
+      isPercent: 1
+    cost: 2400

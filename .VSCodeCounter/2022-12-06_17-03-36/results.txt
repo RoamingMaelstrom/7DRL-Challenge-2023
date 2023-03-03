@@ -1,0 +1,193 @@
+Date : 2022-12-06 17:03:36
+Directory : c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts
+Total : 132 files,  4047 codes, 94 comments, 1009 blanks, all 5150 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |        132 |      4,047 |         94 |      1,009 |      5,150 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |        132 |      4,047 |         94 |      1,009 |      5,150 |
+| Audio                                                                                                            |          3 |        145 |          1 |         34 |        180 |
+| Audio\Music                                                                                                      |          2 |        117 |          1 |         28 |        146 |
+| Audio\SFX                                                                                                        |          1 |         28 |          0 |          6 |         34 |
+| Damage Dealer                                                                                                    |          5 |        278 |         14 |         74 |        366 |
+| Drops                                                                                                            |          7 |        159 |          1 |         44 |        204 |
+| Drops\Drop Scripts                                                                                               |          5 |        124 |          1 |         35 |        160 |
+| Drops\Pickup                                                                                                     |          2 |         35 |          0 |          9 |         44 |
+| Enemy                                                                                                            |          9 |        340 |         11 |         70 |        421 |
+| Enemy\Spawning                                                                                                   |          4 |        202 |          6 |         38 |        246 |
+| Enemy\Wave System                                                                                                |          3 |        103 |          4 |         20 |        127 |
+| Object Pool                                                                                                      |          4 |        212 |         16 |         48 |        276 |
+| Objective                                                                                                        |          3 |        100 |          5 |         31 |        136 |
+| Pausing                                                                                                          |          2 |         56 |          0 |         12 |         68 |
+| Player                                                                                                           |         35 |      1,170 |         23 |        311 |      1,504 |
+| Player\Death                                                                                                     |          5 |         80 |          0 |         22 |        102 |
+| Player\Items                                                                                                     |         19 |        689 |         19 |        190 |        898 |
+| Player\Items\Utility                                                                                             |          2 |         41 |          0 |         13 |         54 |
+| Player\Items\Weapon                                                                                              |         11 |        510 |         17 |        138 |        665 |
+| Player\Modifiers                                                                                                 |          7 |        239 |          2 |         50 |        291 |
+| Player\Modifiers\Game Dependent                                                                                  |          4 |        155 |          0 |         34 |        189 |
+| Player\Modifiers\Persistent                                                                                      |          3 |         84 |          2 |         16 |        102 |
+| Player\PlayerController                                                                                          |          4 |        162 |          2 |         49 |        213 |
+| Save & Load                                                                                                      |          4 |        153 |          3 |         32 |        188 |
+| Score                                                                                                            |          2 |         33 |          0 |          7 |         40 |
+| Start Screen                                                                                                     |          6 |        156 |          1 |         36 |        193 |
+| UI                                                                                                               |         20 |        676 |          8 |        152 |        836 |
+| UI\Level Up                                                                                                      |          2 |         71 |          0 |         13 |         84 |
+| UI\Main                                                                                                          |         10 |        194 |          0 |         53 |        247 |
+| UI\Shop                                                                                                          |          8 |        411 |          8 |         86 |        505 |
+| Upgrades                                                                                                         |          8 |        237 |          2 |         51 |        290 |
+| Upgrades\Game Upgrade                                                                                            |          2 |         86 |          2 |         18 |        106 |
+| Upgrades\Persistent Upgrade                                                                                      |          4 |         90 |          0 |         22 |        112 |
+| Upgrades\Upgraders                                                                                               |          2 |         61 |          0 |         11 |         72 |
+| _SO_Events                                                                                                       |         20 |        210 |          3 |         74 |        287 |
+| _SO_Events\1 arg                                                                                                 |         11 |         88 |          0 |         23 |        111 |
+| _SO_Events\2 arg                                                                                                 |          7 |         56 |          0 |         19 |         75 |
+| _SO_Events\3 arg                                                                                                 |          1 |          8 |          0 |          3 |         11 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                         | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Audio\Music\MainMusicLogic.cs                              | C#       |         95 |          1 |         24 |        120 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Audio\Music\TrackContainer.cs                              | C#       |         22 |          0 |          4 |         26 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Audio\SFX\SfxMain.cs                                       | C#       |         28 |          0 |          6 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Damage Dealer\DamageDealer.cs                              | C#       |        110 |          7 |         27 |        144 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Damage Dealer\DamageDealerBehaviourLogic.cs                | C#       |         32 |          5 |          9 |         46 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Damage Dealer\DamageDealerConfigurer.cs                    | C#       |         67 |          1 |         22 |         90 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Damage Dealer\DamageDealerDeathBehaviour.cs                | C#       |         30 |          0 |          5 |         35 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Damage Dealer\DamageDealerProfile.cs                       | C#       |         39 |          1 |         11 |         51 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Drop Scripts\DropCreator.cs                          | C#       |         72 |          1 |         19 |         92 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Drop Scripts\DropInfo.cs                             | C#       |         16 |          0 |          3 |         19 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Drop Scripts\DropItems.cs                            | C#       |          7 |          0 |          3 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Drop Scripts\DropProfile.cs                          | C#       |         20 |          0 |          8 |         28 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Drop Scripts\DroppedItemMain.cs                      | C#       |          9 |          0 |          2 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Pickup\AttractItem.cs                                | C#       |         10 |          0 |          3 |         13 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Drops\Pickup\PickupLogic.cs                                | C#       |         25 |          0 |          6 |         31 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\EnemyDespawnType.cs                                  | C#       |          7 |          0 |          2 |          9 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\EnemyMovement.cs                                     | C#       |         28 |          1 |         10 |         39 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Spawning\DespawnFarAwayEnemies.cs                    | C#       |         25 |          3 |          6 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Spawning\EnemyConfigurer.cs                          | C#       |         94 |          0 |         19 |        113 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Spawning\EnemyProfile.cs                             | C#       |         30 |          0 |          4 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Spawning\StandardEnemySpawner.cs                     | C#       |         53 |          3 |          9 |         65 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Wave System\WaveDetails.cs                           | C#       |         39 |          2 |          5 |         46 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Wave System\WaveEnemyQuantity.cs                     | C#       |         15 |          0 |          4 |         19 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Enemy\Wave System\WaveManager.cs                           | C#       |         49 |          2 |         11 |         62 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Health.cs                                                  | C#       |         53 |          2 |         13 |         68 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\LifeSpanLimiter.cs                                         | C#       |         26 |          2 |          6 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Object Pool\ObjectIdentifier.cs                            | C#       |          8 |          1 |          2 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Object Pool\ObjectPoolMain.cs                              | C#       |        167 |         14 |         36 |        217 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Object Pool\ObjectTypeIdRanges.cs                          | C#       |         24 |          1 |          5 |         30 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Object Pool\Pool.cs                                        | C#       |         13 |          0 |          5 |         18 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Objective\ObjectiveGenerator.cs                            | C#       |         12 |          2 |          5 |         19 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Objective\ObjectiveMain.cs                                 | C#       |         19 |          0 |          5 |         24 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Objective\ObjectiveManagerMain.cs                          | C#       |         69 |          3 |         21 |         93 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Pausing\PauseManager.cs                                    | C#       |         37 |          0 |          6 |         43 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Pausing\TogglePause.cs                                     | C#       |         19 |          0 |          6 |         25 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Death\EndSceneScoreDisplay.cs                       | C#       |         12 |          0 |          3 |         15 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Death\PauseOnDeathLogic.cs                          | C#       |         17 |          0 |          8 |         25 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Death\ReturnToMainMenuLogic.cs                      | C#       |         11 |          0 |          2 |         13 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Death\SetupEndPanel.cs                              | C#       |         24 |          0 |          5 |         29 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Death\TriggerDeathAnimation.cs                      | C#       |         16 |          0 |          4 |         20 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\IItem.cs                                      | C#       |         11 |          0 |          3 |         14 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\ItemProfile.cs                                | C#       |         36 |          2 |         13 |         51 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\ItemProfileContainer.cs                       | C#       |         15 |          0 |          3 |         18 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\PlayerItemAdder.cs                            | C#       |         22 |          0 |          4 |         26 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Upgrade.cs                                    | C#       |         40 |          0 |         12 |         52 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\UpgradeInfo.cs                                | C#       |         14 |          0 |          4 |         18 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Utility\Utility.cs                            | C#       |          9 |          0 |          2 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Utility\UtilityAttacher.cs                    | C#       |         32 |          0 |         11 |         43 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\CalculateWeaponCooldown.cs             | C#       |         19 |          0 |          5 |         24 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\HomingMissileWeapon.cs                 | C#       |         59 |          0 |         22 |         81 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\LaserBeamWeapon.cs                     | C#       |         41 |          3 |         11 |         55 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\OnPlayerWeapon.cs                      | C#       |         24 |          0 |          5 |         29 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\SingleShotWeapon.cs                    | C#       |         18 |          1 |          4 |         23 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\SweepingLaserBeamWeapon.cs             | C#       |         49 |          5 |         19 |         73 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\TargetSelector.cs                      | C#       |        102 |          5 |         20 |        127 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\TripleShotWeapon.cs                    | C#       |         27 |          1 |          6 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\Weapon.cs                              | C#       |         60 |          0 |         14 |         74 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\WeaponAttacher.cs                      | C#       |         21 |          0 |          8 |         29 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Items\Weapon\WeaponConfigurer.cs                    | C#       |         90 |          2 |         24 |        116 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Game Dependent\GameModifiers.cs           | C#       |         35 |          0 |          9 |         44 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Game Dependent\ItemNumberLimit.cs         | C#       |         40 |          0 |          9 |         49 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Game Dependent\ItemsPurchased.cs          | C#       |         64 |          0 |         12 |         76 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Game Dependent\PlayerMoney.cs             | C#       |         16 |          0 |          4 |         20 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Persistent\PersistentModifiers.cs         | C#       |         30 |          0 |          5 |         35 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Persistent\PersistentUnlocks.cs           | C#       |          6 |          2 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\Modifiers\Persistent\PlayerLevel.cs                 | C#       |         48 |          0 |          9 |         57 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\PlayerController\BasePlayerController.cs            | C#       |         80 |          2 |         22 |        104 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\PlayerController\PlayerShipIdSelected.cs            | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\PlayerController\PlayerShipProfile.cs               | C#       |         24 |          0 |          9 |         33 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Player\PlayerController\SetupPlayer.cs                     | C#       |         50 |          0 |         16 |         66 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Save & Load\LoadOnGameStart.cs                             | C#       |         36 |          0 |          7 |         43 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Save & Load\LoadOnStart.cs                                 | C#       |         67 |          3 |         17 |         87 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Save & Load\SaveAfterLevelling.cs                          | C#       |         26 |          0 |          5 |         31 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Save & Load\WipeSave.cs                                    | C#       |         24 |          0 |          3 |         27 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Score\ScoreObject.cs                                       | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Score\ScoreUpdater.cs                                      | C#       |         25 |          0 |          5 |         30 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\ScrollingBgEffect.cs                                       | C#       |         23 |          2 |          7 |         32 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\ShieldDisplayLogic.cs                                      | C#       |         20 |          0 |          7 |         27 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\ChooseShipID.cs                               | C#       |         11 |          0 |          3 |         14 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\ShipDisplay.cs                                | C#       |         23 |          0 |          5 |         28 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\ShipSelectionLogic.cs                         | C#       |         26 |          0 |          5 |         31 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\StartModifiersDisplayLogic.cs                 | C#       |         32 |          1 |         12 |         45 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\StartSceneTransitionLogic.cs                  | C#       |         48 |          0 |          8 |         56 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Start Screen\UpdatePlayerLevelDisplay.cs                   | C#       |         16 |          0 |          3 |         19 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Level Up\LevelUpTabLogic.cs                             | C#       |         39 |          0 |          7 |         46 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Level Up\OpenLevelUpScreen.cs                           | C#       |         32 |          0 |          6 |         38 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\DamageTextGenerator.cs                             | C#       |         26 |          0 |          8 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\DamageTextLifespan.cs                              | C#       |         16 |          0 |          4 |         20 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\HealthBarLogic.cs                                  | C#       |         22 |          0 |          4 |         26 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\LevelNumberTextLogic.cs                            | C#       |         12 |          0 |          4 |         16 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\MoneyTextLogic.cs                                  | C#       |         12 |          0 |          3 |         15 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\ObjectiveDisplayLogic.cs                           | C#       |         33 |          0 |          9 |         42 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\ObjectivePointerLogic.cs                           | C#       |         34 |          0 |         11 |         45 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\TimerTextLogic.cs                                  | C#       |         12 |          0 |          3 |         15 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\UIFollowPlayerLogic.cs                             | C#       |         15 |          0 |          4 |         19 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Main\XpSliderLogic.cs                                   | C#       |         12 |          0 |          3 |         15 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\CurrentItemsLogic.cs                               | C#       |         61 |          1 |         10 |         72 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\GetItemsToSell.cs                                  | C#       |        109 |          2 |         30 |        141 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\HintsLogic.cs                                      | C#       |         27 |          0 |          7 |         34 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\ItemPurchaseLogic.cs                               | C#       |         26 |          1 |          5 |         32 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\OpenShopLogic.cs                                   | C#       |         36 |          4 |         12 |         52 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\RandomShopNameLogic.cs                             | C#       |         18 |          0 |          5 |         23 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\ShopItem.cs                                        | C#       |         14 |          0 |          2 |         16 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\UI\Shop\ShopItemPaneLogic.cs                               | C#       |        120 |          0 |         15 |        135 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Game Upgrade\GameModifiersUpgrader.cs             | C#       |         37 |          0 |         11 |         48 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Game Upgrade\WeaponUpgrader.cs                    | C#       |         49 |          2 |          7 |         58 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Persistent Upgrade\LevelUpgrade.cs                | C#       |         22 |          0 |          8 |         30 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Persistent Upgrade\LevelUpgradeContainer.cs       | C#       |          7 |          0 |          2 |          9 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Persistent Upgrade\LevelUpgradePicker.cs          | C#       |         32 |          0 |          6 |         38 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Persistent Upgrade\PersistentModifiersUpgrader.cs | C#       |         29 |          0 |          6 |         35 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Upgraders\PlayerHealthUpgrader.cs                 | C#       |         40 |          0 |          4 |         44 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\Upgrades\Upgraders\Upgrader.cs                             | C#       |         21 |          0 |          7 |         28 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\BoolSOEvent.cs                            | C#       |          8 |          0 |          1 |          9 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\Collider2DSOEvent.cs                      | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\DroppedItemMainSOEvent.cs                 | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\FloatSOEvent.cs                           | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\GameModifiersEvent.cs                     | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\GameObjectSOEvent.cs                      | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\IntSOEvent.cs                             | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\LevelUpgradeSOEvent.cs                    | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\StringSOEvent.cs                          | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\TransformSOEvent.cs                       | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\1 arg\WeaponSOEvent.cs                          | C#       |          8 |          0 |          1 |          9 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\Collider2DCollider2DSOEvent.cs            | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\GameObject2SOEvent.cs                     | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\GameObjectBoolSOEvent.cs                  | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\GameObjectFloatSOEvent.cs                 | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\GameObjectIntSOEvent.cs                   | C#       |          8 |          0 |          2 |         10 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\GameObjectTransformSOEvent.cs             | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\2 arg\UpgradeInfoIntSOEvent.cs                  | C#       |          8 |          0 |          4 |         12 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\3 arg\GameObject3SOEvent.cs                     | C#       |          8 |          0 |          3 |         11 |
+| c:\Alex\Unity\_Game Jams\Game Off 2022\Assets\Scripts\_SO_Events\SOEvent.cs                                      | C#       |         58 |          3 |         29 |         90 |
+| Total                                                                                                            |          |      4,047 |         94 |      1,009 |      5,150 |
++------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

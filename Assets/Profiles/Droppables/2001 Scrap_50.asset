@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7deebcba47314c43a4131b9ad8b3295, type: 3}
+  m_Name: 2001 Scrap_50
+  m_EditorClassIdentifier: 
+  droppableTypeID: 2001
+  droppableName: Scrap 50
+  sprite: {fileID: 715957109, guid: ac634b84ccaf48740aba5f85255b6af5, type: 3}
+  droppableType: 0
+  triggerRadius: 1
+  value1Destription: Amount of money
+  value1: 50
+  value2Description: 
+  value2: 0

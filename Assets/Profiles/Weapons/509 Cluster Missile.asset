@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 509 Cluster Missile
+  m_EditorClassIdentifier: 
+  itemID: 509
+  itemName: Cluster Bomb Launcher
+  itemDescription: Shoots a Projectile that releases 4 mines on impact with an enemy.
+    These mines explode on contact with an enemy
+  itemCost: 1250
+  itemType: 0
+  itemOffset: {x: -0.1, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 0}
+  weaponType: 3
+  baseMaxCd: 7
+  accuracyCoefficient: 1
+  targetingType: 0
+  damageDealerTypeID: 1009
+  itemPerks: []
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 4
+      magnitude: -1
+      isPercent: 0
+    cost: 750
+  - upgrades:
+    - upgradeType: 0
+      magnitude: 50
+      isPercent: 1
+    cost: 1500
+  - upgrades:
+    - upgradeType: 4
+      magnitude: -1
+      isPercent: 0
+    cost: 1250
+  - upgrades:
+    - upgradeType: 0
+      magnitude: 50
+      isPercent: 1
+    cost: 2000
+  - upgrades:
+    - upgradeType: 4
+      magnitude: -50
+      isPercent: 1
+    - upgradeType: 0
+      magnitude: 150
+      isPercent: 0
+    cost: 4000

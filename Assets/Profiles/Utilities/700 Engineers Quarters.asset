@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 700 Engineers Quarters
+  m_EditorClassIdentifier: 
+  itemID: 700
+  itemName: Engineers Quarters
+  itemDescription: Heals the Ship over time
+  itemCost: 750
+  itemType: 1
+  itemOffset: {x: 0, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 0}
+  weaponType: 0
+  baseMaxCd: 0
+  accuracyCoefficient: 0
+  targetingType: 0
+  damageDealerTypeID: 0
+  itemPerks:
+  - upgradeType: 14
+    magnitude: 25
+    isPercent: 0
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 14
+      magnitude: 15
+      isPercent: 0
+    cost: 750
+  - upgrades:
+    - upgradeType: 14
+      magnitude: 15
+      isPercent: 0
+    cost: 1000
+  - upgrades:
+    - upgradeType: 14
+      magnitude: 15
+      isPercent: 0
+    cost: 1250
+  - upgrades:
+    - upgradeType: 14
+      magnitude: 15
+      isPercent: 0
+    cost: 1500
+  - upgrades:
+    - upgradeType: 14
+      magnitude: 75
+      isPercent: 1
+    cost: 3000

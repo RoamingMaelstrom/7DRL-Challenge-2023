@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 706 Homing Beacon
+  m_EditorClassIdentifier: 
+  itemID: 706
+  itemName: Homing Beacon
+  itemDescription: Reduces the distance between delivery locations
+  itemCost: 400
+  itemType: 1
+  itemOffset: {x: 0, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 0}
+  weaponType: 0
+  baseMaxCd: 0
+  accuracyCoefficient: 0
+  targetingType: 0
+  damageDealerTypeID: 0
+  itemPerks:
+  - upgradeType: 9
+    magnitude: -15
+    isPercent: 1
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 9
+      magnitude: -10
+      isPercent: 1
+    cost: 300
+  - upgrades:
+    - upgradeType: 9
+      magnitude: -10
+      isPercent: 1
+    cost: 500
+  - upgrades:
+    - upgradeType: 9
+      magnitude: -10
+      isPercent: 1
+    - upgradeType: 9
+      magnitude: -75
+      isPercent: 0
+    cost: 700
+  - upgrades:
+    - upgradeType: 9
+      magnitude: -10
+      isPercent: 1
+    cost: 900
+  - upgrades:
+    - upgradeType: 9
+      magnitude: -10
+      isPercent: 1
+    - upgradeType: 9
+      magnitude: -75
+      isPercent: 0
+    cost: 1800

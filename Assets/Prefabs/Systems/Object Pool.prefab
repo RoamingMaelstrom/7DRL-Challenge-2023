@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5609261873426880100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5609261873426880098}
+  - component: {fileID: 5609261873426880099}
+  - component: {fileID: 5609261873426880097}
+  m_Layer: 0
+  m_Name: Object Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5609261873426880098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609261873426880100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609261873426880099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609261873426880100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfe7a24fd6db64499e373e2b9989162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  despawnEvent: {fileID: 11400000, guid: ab75d7a9974280a498813e1108f13f3a, type: 2}
+  objectPools:
+  - poolID: 0
+    poolName: Enemies
+    objectPrefab: {fileID: 2856322862003185331, guid: cde35f44b6e2cbb43be659225b916f10, type: 3}
+    suggestedPoolSize: 2000
+    objectsInUse: []
+  - poolID: 1
+    poolName: Damage Dealers
+    objectPrefab: {fileID: 4821637926734237410, guid: bcb6e1708f1e006459613e6e5bc79d5b, type: 3}
+    suggestedPoolSize: 1000
+    objectsInUse: []
+  - poolID: 2
+    poolName: Weapons
+    objectPrefab: {fileID: 8596022080571205905, guid: 8ac0c3cebd392b545a584a99dcfa8994, type: 3}
+    suggestedPoolSize: 20
+    objectsInUse: []
+  - poolID: 3
+    poolName: Dropped Items
+    objectPrefab: {fileID: 5189474344300688735, guid: ef01912baebe55048b2ac91bd64eee2f, type: 3}
+    suggestedPoolSize: 2500
+    objectsInUse: []
+  maxPoolFillRate: 250
+  running: 1
+  calledXTimes: 0
+--- !u!114 &5609261873426880097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609261873426880100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6c6acf88f7102409b49c7a47008512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectGroups:
+  - typeName: Enemies
+    minIndex: 0
+    maxIndex: 100
+  - typeName: Weapons
+    minIndex: 500
+    maxIndex: 700
+  - typeName: Utilities
+    minIndex: 700
+    maxIndex: 1000
+  - typeName: Damage Dealers
+    minIndex: 1000
+    maxIndex: 1500
+  - typeName: Droppables
+    minIndex: 2000
+    maxIndex: 3000

@@ -1,0 +1,25 @@
+Visual assets
+
+Starry Backgrounds, Dust & Shield Sprite - Bonsaiheldin https://opengameart.org/users/bonsaiheldin
+Player, NPC and Enemy Ships - Guardian5 https://guardian5.itch.io/
+Munition and Laserbeam sprites - GameSupplyGuy https://gamesupply.itch.io/
+Laser, Pointer and Explosion Sprites - Kenney https://kenney.nl/assets
+UI Palette (british Palette) - https://flatuicolors.com/
+
+
+
+Sound assets
+
+Various Weapon Sounds - Kenney https://kenney.nl/assets
+Pickup and Level up sounds - Fusehive http://www.fusehive.com/
+Laser Beam Sound - Varkalandar https://opengameart.org/users/varkalandar
+
+
+
+Other assets
+Roboto Font - Christian Robertson https://fonts.google.com/?query=Christian+Robertson
+Monogram Font Datagoblin https://datagoblin.itch.io/
+
+
+
+All Asset modifications were made by the Developer

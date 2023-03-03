@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0319e2139e8db64f8c3d31ec7fc48b5, type: 3}
+  m_Name: 9005 Weapon Platform
+  m_EditorClassIdentifier: 
+  shipID: 9005
+  shipName: Weapon Platform
+  shipDescription: Slower ship that can equip lots of weapons. Starts with Chain
+    Gun and Triple Shot Turret. Has 9 Weapon slots, but only 3 Utility slots. All
+    Weapons Attack Speed increased by 10%.
+  shipSprite: {fileID: -1334169785, guid: c8667f51178921444841e768f4c1ab6f, type: 3}
+  spriteScale: 2
+  shipThrust: 9000
+  shipTorque: 100
+  shipMaxRotationSpeed: 270
+  shipBaseMaxHealth: 2500
+  shipBaseHealthRegen: 0
+  shipBaseMaxShieldHealth: 0
+  shipBaseShieldRegen: 0
+  shipBaseShieldRegenCooldown: 5
+  playerStartingMoney: 250
+  shipMaxNumWeapons: 9
+  shipMaxNumUtilities: 3
+  shipStartingItemIds: f401000001020000
+  shipStartStatUpgrades:
+    upgrades:
+    - upgradeType: 5
+      magnitude: -10
+      isPercent: 1
+    cost: 0

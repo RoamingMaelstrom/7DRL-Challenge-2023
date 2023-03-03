@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0319e2139e8db64f8c3d31ec7fc48b5, type: 3}
+  m_Name: 9003 Hi-tech Player Ship
+  m_EditorClassIdentifier: 
+  shipID: 9003
+  shipName: The Gadgemon 3000
+  shipDescription: High-tech ship with high-tech gear. Starts with Electro Ring Machine
+    and Reactive Shield Generator. Can Buy an additional Utility Item.
+  shipSprite: {fileID: -1151717520, guid: 181654aa271a787419d5c79615f8057b, type: 3}
+  spriteScale: 1
+  shipThrust: 10000
+  shipTorque: 100
+  shipMaxRotationSpeed: 270
+  shipBaseMaxHealth: 1250
+  shipBaseHealthRegen: 0
+  shipBaseMaxShieldHealth: 0
+  shipBaseShieldRegen: 0
+  shipBaseShieldRegenCooldown: 4.5
+  playerStartingMoney: 250
+  shipMaxNumWeapons: 6
+  shipMaxNumUtilities: 7
+  shipStartingItemIds: fa010000c5020000
+  shipStartStatUpgrades:
+    upgrades: []
+    cost: 0

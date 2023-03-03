@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032e39b951bb1cd41b2067eb84a6f447, type: 3}
+  m_Name: 708 Shield Generator
+  m_EditorClassIdentifier: 
+  itemID: 708
+  itemName: Standard Shield Generator
+  itemDescription: Envelop the ship in a shield that absorbs damage and regenerates.
+    Stacks with Reactive Shield Generator
+  itemCost: 1000
+  itemType: 1
+  itemOffset: {x: 0, y: 0}
+  sprite: {fileID: 0}
+  material: {fileID: 0}
+  weaponType: 0
+  baseMaxCd: 0
+  accuracyCoefficient: 0
+  targetingType: 0
+  damageDealerTypeID: 0
+  itemPerks:
+  - upgradeType: 16
+    magnitude: 1000
+    isPercent: 0
+  - upgradeType: 17
+    magnitude: 100
+    isPercent: 0
+  itemUpgrades:
+  - upgrades:
+    - upgradeType: 16
+      magnitude: 500
+      isPercent: 0
+    - upgradeType: 17
+      magnitude: 25
+      isPercent: 1
+    cost: 1250
+  - upgrades:
+    - upgradeType: 16
+      magnitude: 500
+      isPercent: 0
+    - upgradeType: 17
+      magnitude: 100
+      isPercent: 0
+    cost: 2000
+  - upgrades:
+    - upgradeType: 16
+      magnitude: 500
+      isPercent: 0
+    cost: 1750
+  - upgrades:
+    - upgradeType: 16
+      magnitude: 500
+      isPercent: 0
+    cost: 2000
+  - upgrades:
+    - upgradeType: 16
+      magnitude: 1000
+      isPercent: 0
+    - upgradeType: 17
+      magnitude: 50
+      isPercent: 1
+    cost: 4000

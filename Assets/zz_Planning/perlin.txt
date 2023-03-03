@@ -1,0 +1,99 @@
+### Perlin Noise Algorithm
+
+## Data Structures
+    - 2D Array of Vector2  - Gradient Vector Array     - Approx 11x11?    
+    - 2D Array of floats  - Perlin noise Point Array - Approx 100x100?
+        - If assume Point represents 100x100 area, works out to 10,000x10,000 world space.
+    
+
+## Algorithm Description
+    1. Construct a 2D array of random, normalised Vector2's  - Gradient Vector Array
+    2. Define an integer Step Value that represents how many Points will fall within each Gradient Vector Square (e.g. 10)
+    3. Construct an empty 2D array of floats of the size (Gradient Vector Array dimensions * Step Value)  - Perlin noise Point Array
+    4. For each Point in the Perlin noise Point Array
+
+        - Construct a Vector2 array of Length = 4  - Working Vector Array
+        - Find and place the 4 nearest Gradient Vector Array values into the Working Vector Array
+
+        - Construct a Vector2 array of Length = 4  - Working Vector Array 2
+        - Calculate distance vectors between the respective Point and the nearest Gradient Vector array values. Store in Working Vector Array 2
+        
+        - Construct a float array of Length = 4  - Dot Product Array
+        - Calculate the Dot Product of the distance vectors and nearest gradient vectors (with the same index). Store in Dot Product Array
+
+        - Linearly interpolate between the 4 Dot Products based on their distance from the nearest Gradient corners.
+            - Do this by constructing 2 seperate interpolations in x-direction, then combining them based on y-distance between nearest Gradient vectors
+            - Only need to Linearly interpolate in one dimension.
+
+        - Store this final value in the Perlin Noise Point Array
+    5. Normalise the values in the Perlin noise Point Array (Between 0 and 1)
+        - Add (-lowest value) to all points in the Array
+        - Divide all points by the (largest value) in the array.
+
+
+
+## Pseudocode
+
+GV_width: int = 11
+GV_height: int = 11
+GV_step: int = 10
+
+gradientVectorArray = Vector2[GV_width][GV_height]
+
+
+for i in range(GV_width): 
+for j in range(GV_height): 
+    gradientVectorArray[i][j] = Vector2.Random().normalised()
+
+perlinPointArray = float[GV_width * GV_step][GV_height * GV_step]
+
+workingVectorArray1: Vector2[4]
+workingVectorArray2: Vector2[4]
+
+dotProductArray: float[4]
+
+for i in range(GV_width * GV_step):
+for j in range(GV_height * GV_step):
+    workingVectorArray1.insert(GetNearestGradientVectors(point(i,j)))
+
+    workingVectorArray2.insert(GetDistanceVectorsFromNearestGradientVectors(point(i,j)))
+
+    dotProductArray.insert(DotProductFor4Vectors(workingVectorArray1, workingVectorArray2))
+
+    # Interpolation amount
+    tx: float = - min(workingVectorArray2.x values)  # Should retrieve value <= 0.
+    ty: float = - min(workingVectorArray2.y values)  # Could also store this earlier in a float[4][2] Array of Distance fron nearest Gradient Vectors
+
+    # Linearly Interpolated variables
+    ix0, ix1, final_value: float
+
+    ix0 = Interpolate(dotProductArray[0], dotProductArray[1], tx)
+    ix1 = Interpolate(dotProductArray[2], dotProductArray[3], tx)
+
+    final_value = Interpolate(ix0, ix1, ty)
+
+
+smallestValue: float = GetSmallestValue(perlinPointArray)
+largestValue: float = GetLargestValue(perlinPointArray)
+
+
+for i in range(GV_width * GV_step):
+for j in range(GV_height * GV_step):
+    perlinPointArray[i][j] -= smallestValue
+    perlinPointArray[i][j] /= largestValue
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
